@@ -13,6 +13,8 @@
 		A32D93EB27B835D6009EF08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32D93E927B835D6009EF08A /* Main.storyboard */; };
 		A32D93ED27B835D7009EF08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32D93EC27B835D7009EF08A /* Assets.xcassets */; };
 		A32D93F027B835D7009EF08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32D93EE27B835D7009EF08A /* LaunchScreen.storyboard */; };
+		A32D93F827B84828009EF08A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D93F727B84828009EF08A /* SignupViewController.swift */; };
+		A32D93FA27B84FBA009EF08A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D93F927B84FBA009EF08A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A32D93EC27B835D7009EF08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A32D93EF27B835D7009EF08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A32D93F127B835D7009EF08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32D93F727B84828009EF08A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		A32D93F927B84FBA009EF08A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A32D93EC27B835D7009EF08A /* Assets.xcassets */,
 				A32D93EE27B835D7009EF08A /* LaunchScreen.storyboard */,
 				A32D93F127B835D7009EF08A /* Info.plist */,
+				A32D93F727B84828009EF08A /* SignupViewController.swift */,
+				A32D93F927B84FBA009EF08A /* LoginViewController.swift */,
 			);
 			path = TravelAppUIKit;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				A32D93E827B835D6009EF08A /* ViewController.swift in Sources */,
 				A32D93E427B835D6009EF08A /* AppDelegate.swift in Sources */,
+				A32D93F827B84828009EF08A /* SignupViewController.swift in Sources */,
+				A32D93FA27B84FBA009EF08A /* LoginViewController.swift in Sources */,
 				A32D93E627B835D6009EF08A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
