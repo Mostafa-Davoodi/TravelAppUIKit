@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AppKit",
+        "repositoryURL": "https://github.com/Mostafa-Davoodi/AppKit",
+        "state": {
+          "branch": null,
+          "revision": "7f4fd2fb0a20824e00cdf31d5bef8c231e9173b5",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
