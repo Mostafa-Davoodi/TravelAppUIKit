@@ -9,6 +9,16 @@ import UIKit
 
 class DataProvider {
 	
+	static func mockPlacesData() -> [Place] {
+		return [
+			Place(image: UIImage(named: "photo1"), name: "London"),
+			Place(image: UIImage(named: "photo2"), name: "Roma"),
+			Place(image: UIImage(named: "photo1"), name: "Vancouver"),
+			Place(image: UIImage(named: "photo2"), name: "Toronto"),
+		]
+	}
+	
+	
 	static var data = [(String, [User])]()
 	
 	static func mockData() -> [(String, [User])] {

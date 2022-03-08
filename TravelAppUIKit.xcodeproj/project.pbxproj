@@ -19,6 +19,10 @@
 		A33F312927CAA7800078F8E8 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33F312827CAA7800078F8E8 /* FriendCell.swift */; };
 		A33F312B27CAAA410078F8E8 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33F312A27CAAA410078F8E8 /* DataProvider.swift */; };
 		A33F312F27CAB6010078F8E8 /* FriendsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33F312E27CAB6010078F8E8 /* FriendsDetailViewController.swift */; };
+		A3A136C827D3E36B00ED7F0F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A136C727D3E36B00ED7F0F /* HomeViewController.swift */; };
+		A3A136CB27D3EB1300ED7F0F /* ElementKit in Frameworks */ = {isa = PBXBuildFile; productRef = A3A136CA27D3EB1300ED7F0F /* ElementKit */; };
+		A3A136CD27D3F76F00ED7F0F /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A136CC27D3F76F00ED7F0F /* Place.swift */; };
+		A3A136CF27D3F85C00ED7F0F /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A136CE27D3F85C00ED7F0F /* PlaceCell.swift */; };
 		A3B2638D27C18AF10035DCFA /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B2638C27C18AF10035DCFA /* FriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,9 @@
 		A33F312827CAA7800078F8E8 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
 		A33F312A27CAAA410078F8E8 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		A33F312E27CAB6010078F8E8 /* FriendsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDetailViewController.swift; sourceTree = "<group>"; };
+		A3A136C727D3E36B00ED7F0F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A3A136CC27D3F76F00ED7F0F /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		A3A136CE27D3F85C00ED7F0F /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
 		A3B2638C27C18AF10035DCFA /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A136CB27D3EB1300ED7F0F /* ElementKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,7 @@
 				A32D93F927B84FBA009EF08A /* LoginViewController.swift */,
 				A3B2638C27C18AF10035DCFA /* FriendsViewController.swift */,
 				A33F312E27CAB6010078F8E8 /* FriendsDetailViewController.swift */,
+				A3A136C727D3E36B00ED7F0F /* HomeViewController.swift */,
 			);
 			path = TravelAppUIKit;
 			sourceTree = "<group>";
@@ -92,6 +101,7 @@
 			children = (
 				A33F312527CAA7300078F8E8 /* User.swift */,
 				A33F312A27CAAA410078F8E8 /* DataProvider.swift */,
+				A3A136CC27D3F76F00ED7F0F /* Place.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -100,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				A33F312827CAA7800078F8E8 /* FriendCell.swift */,
+				A3A136CE27D3F85C00ED7F0F /* PlaceCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -120,6 +131,9 @@
 			dependencies = (
 			);
 			name = TravelAppUIKit;
+			packageProductDependencies = (
+				A3A136CA27D3EB1300ED7F0F /* ElementKit */,
+			);
 			productName = TravelAppUIKit;
 			productReference = A32D93E027B835D6009EF08A /* TravelAppUIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -148,6 +162,9 @@
 				Base,
 			);
 			mainGroup = A32D93D727B835D6009EF08A;
+			packageReferences = (
+				A3A136C927D3EB1300ED7F0F /* XCRemoteSwiftPackageReference "ElementKit" */,
+			);
 			productRefGroup = A32D93E127B835D6009EF08A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -175,13 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A136CF27D3F85C00ED7F0F /* PlaceCell.swift in Sources */,
 				A32D93E827B835D6009EF08A /* ViewController.swift in Sources */,
 				A32D93E427B835D6009EF08A /* AppDelegate.swift in Sources */,
 				A32D93F827B84828009EF08A /* SignupViewController.swift in Sources */,
+				A3A136CD27D3F76F00ED7F0F /* Place.swift in Sources */,
 				A33F312927CAA7800078F8E8 /* FriendCell.swift in Sources */,
 				A32D93FA27B84FBA009EF08A /* LoginViewController.swift in Sources */,
 				A3B2638D27C18AF10035DCFA /* FriendsViewController.swift in Sources */,
 				A33F312B27CAAA410078F8E8 /* DataProvider.swift in Sources */,
+				A3A136C827D3E36B00ED7F0F /* HomeViewController.swift in Sources */,
 				A32D93E627B835D6009EF08A /* SceneDelegate.swift in Sources */,
 				A33F312627CAA7300078F8E8 /* User.swift in Sources */,
 				A33F312F27CAB6010078F8E8 /* FriendsDetailViewController.swift in Sources */,
@@ -404,6 +424,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A3A136C927D3EB1300ED7F0F /* XCRemoteSwiftPackageReference "ElementKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mostafa-Davoodi/ElementKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3A136CA27D3EB1300ED7F0F /* ElementKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3A136C927D3EB1300ED7F0F /* XCRemoteSwiftPackageReference "ElementKit" */;
+			productName = ElementKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A32D93D827B835D6009EF08A /* Project object */;
 }
