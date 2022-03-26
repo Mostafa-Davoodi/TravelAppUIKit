@@ -19,8 +19,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		guard let windowScene = (scene as? UIWindowScene) else { return }
 		let window = UIWindow(windowScene: windowScene)
 		
-		let homeVC = HomeViewController()
-		let navigationController = UINavigationController(rootViewController: homeVC)
+//		let homeVC = HomeViewController()
+//		let navigationController = UINavigationController(rootViewController: homeVC)
+		
+		// TODO: TEMP change!!!!
+		let testVC = TestNetworkingViewController()
+		let navigationController = UINavigationController(rootViewController: testVC)
+		
 		window.rootViewController = navigationController
 		
 		self.window = window
